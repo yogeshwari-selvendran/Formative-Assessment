@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Barlow;
+    src: url(https://fonts.google.com/specimen/Barlow);
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-left: 220px;
+    margin-right: 220px;
+    
+}
+header img{
+    height: 35px;
+}
+.btn{
+    padding: 13px;
+    font-size: 12px;
+    background-color:hsl(198, 28%, 93%); 
+    border-style: none;
+    border-radius: 5px;
+    color:hsl(220, 50%, 17%) ;
+    
+}
+/* This is first part */
+.more{
+    font-size: 45px;
+    font-weight: 700;
+    color:hsl(220, 50%, 17%) ;
+   
+}
+.camara .pop{
+    display: flex;
+    flex-direction: row;
+  
+}
+.pop .nop{
+    padding: 10px;
+    font-size: medium;
+    color:hsl(221, 23%, 58%) ;
+    
+}
+section button{
+    padding: 10px;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: hsl(22, 89%, 52%);
+    color: white;
+}
+.less{
+    margin-bottom: 0px;
+    font-size: 16px;
+    color:hsl(221, 23%, 58%) ;
+}
+.pop{
+    margin-bottom: 0px;
+
+}
+.photo img{
+    height: 350px;
+    border-radius: 10px;
+    width: 350px;
+    margin-right: 220px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    /* margin-left: 200px;
+    margin-right: 200px;  */
+}
+.camara{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 200px;
+}
+/* This is second part */
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+
+}
+.pic{
+    height: 300px;
+    width: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 170px;
+    filter: invert(38%) sepia(13%) saturate(3207%) hue-rotate(351deg) brightness(85%) contrast(90%);
+    
+}
+.sic{
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.contened{
+    margin-top: 30px;
+    margin-right: 300px;
+}
+
+.mom{
+    font-size: 30px;
+    font-weight: 600;
+    color:hsl(220, 50%, 17%) ;
+}
+.dad{
+    font-size: 16px;
+    color:hsl(221, 23%, 58%) ;
+    margin-top: 5px;
+}
+/* This is footer */
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+/* This is align items */
+.new{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.new1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.new2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.new3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* This is for icon visible */
+.item1{
+    background-color: hsl(22, 89%, 52%);
+    height: 50px;
+    width: 50px;
+    border-radius: 6px;
+
+}
+.item2{
+    background-color: hsl(22, 89%, 52%);
+    height: 50px;
+    width: 50px;
+    border-radius: 6px;
+
+}
+.item3{
+    background-color: hsl(22, 89%, 52%);
+    height: 50px;
+    width: 50px;
+    border-radius: 6px;
+
+}
+.item4{
+    background-color: hsl(22, 89%, 52%);
+    height: 50px;
+    width: 50px;
+    border-radius: 6px;
+
+}
+/* This is for icon alignment */
+.item1 img{
+   height: 24px;
+   width: 30px;
+   padding: 12px;
+   
+}
+.item2 img{
+    height: 24px;
+    width: 19px;
+    padding: 15px;
+    
+}
+.item3 img{
+    height: 15px;
+    width: 25px;
+    padding: 15px;
+    
+}
+.item4 img{
+    height: 24px;
+    width: 22px;
+    padding: 13px;
+    
+}
+.men{
+    font-size: 20px;
+    font-weight: 600;
+    color:hsl(220, 50%, 17%) ;
+}
+.women{
+    font-size: 16px;
+    color:hsl(221, 23%, 58%) ;
+}
+
+
+
